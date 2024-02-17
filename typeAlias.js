@@ -7,7 +7,5 @@ const user = {
 function login(userData) {
     return userData;
 }
-console.log(login({
-    name: "ashik",
-    age: 120,
-}));
+console.log(login(user));
+const userId = 12;
